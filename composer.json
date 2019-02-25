@@ -1,0 +1,17 @@
+{
+    "name": "stickee/php-code-style",
+    "description": "Stickee PHP Code Style",
+    "type": "library",
+    "require": {
+        "phpro/grumphp": "^0.15.0",
+        "phpstan/phpstan": "^0.11.1",
+        "friendsofphp/php-cs-fixer": "^2.14"
+    },
+    "authors": [
+        {
+            "name": "Paul Tibbetts",
+            "email": "paul.tibbetts@stickee.co.uk"
+        }
+    ],
+    "require-dev": {}
+}

@@ -1,0 +1,13 @@
+parameters:
+    git_dir: .
+    hooks_dir: ./git_hooks
+    bin_dir: vendor/bin
+    tasks:
+        git_blacklist: 
+            keywords: 
+                - "dd("
+                - "var_dump("
+                - "die("
+        phpcsfixer2:
+        composer:
+        phpstan:
