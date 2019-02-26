@@ -1,6 +1,6 @@
 parameters:
     git_dir: .
-    hooks_dir: ./git_hooks
+    hooks_dir: ~
     bin_dir: vendor/bin
     tasks:
         git_blacklist: 
@@ -11,3 +11,4 @@ parameters:
         phpcsfixer2:
         composer:
         phpstan:
+            configuration: vendor/stickee/php-code-style/phpstan.neon

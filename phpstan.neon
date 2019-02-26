@@ -2,5 +2,3 @@ parameters:
     level: 1
     paths:
         - app
-    ignoreErrors:
-        - '#Call to an undefined method Illuminate\\Support\\Fluent::references()#'
