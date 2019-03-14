@@ -7,11 +7,9 @@
         "phpstan/phpstan": "^0.11.1",
         "friendsofphp/php-cs-fixer": "^2.14"
     },
-    "authors": [
-        {
-            "name": "Paul Tibbetts",
-            "email": "paul.tibbetts@stickee.co.uk"
-        }
-    ],
+    "authors": [{
+        "name": "Paul Tibbetts",
+        "email": "paul.tibbetts@stickee.co.uk"
+    }],
     "require-dev": {}
 }
