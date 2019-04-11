@@ -1,5 +1,5 @@
 {
-    "name": "stickee/php-code-style",
+    "name": "stickeepaul/php-code-style",
     "description": "Stickee PHP Code Style",
     "type": "library",
     "require": {
