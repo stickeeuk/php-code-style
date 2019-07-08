@@ -17,7 +17,7 @@ and then pass the `-c`/`--c`/`--config` option to the tool you wish to use and u
 GrumPHP can be ran using:
 
 ```
-vendor/bin/grumphp <COMMAND> -c vendor/stickee/laravel-code-style/dist/grumphp.yml
+vendor/bin/grumphp <COMMAND> -c vendor/stickee/php-code-style/dist/grumphp.yml
 ```
 
 ### PHPStan
