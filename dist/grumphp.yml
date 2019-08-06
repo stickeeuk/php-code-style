@@ -9,7 +9,8 @@ parameters:
                 - "dd("
                 - "var_dump("
                 - "die("
-        phpcsfixer2:
+        phpcsfixer2: 
+            config: vendor/stickee/php-code-style/dist/.php_cs 
         phpstan:
-            configuration: vendor/stickee/php-code-style/phpstan.neon
+            configuration: vendor/stickee/php-code-style/dist/phpstan.neon
         securitychecker:
