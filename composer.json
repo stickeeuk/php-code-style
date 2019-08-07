@@ -12,5 +12,7 @@
         "friendsofphp/php-cs-fixer": "^2.14",
         "sensiolabs/security-checker": "^5.0"
     },
-    "require-dev": {}
+    "require-dev": {
+        "stickee/grumphp-tasks": "^1.1"
+    }
 }
