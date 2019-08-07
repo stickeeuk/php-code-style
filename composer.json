@@ -10,9 +10,9 @@
         "phpro/grumphp": "^0.15.0",
         "phpstan/phpstan": "^0.11.1",
         "friendsofphp/php-cs-fixer": "^2.14",
-        "sensiolabs/security-checker": "^5.0"
+        "sensiolabs/security-checker": "^5.0",
+        "stickee/grumphp-tasks": "^1.1"
     },
     "require-dev": {
-        "stickee/grumphp-tasks": "^1.1"
     }
 }
