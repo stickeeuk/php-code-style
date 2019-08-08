@@ -1,12 +1,13 @@
 <?php
 $finder = PhpCsFixer\Finder::create()
-    ->exclude('bootstrap/cache')
-    ->exclude('node_modules')
-    ->exclude('storage')
     ->in(__DIR__)
+    ->exclude(['bootstrap/cache', 'node_modules', 'storage'])
+    ->name('*.php')
     ->notName('*.blade.php')
     ->notName('.phpstorm.meta.php')
     ->notName('_ide_*.php')
+    ->ignoreDotFiles(true)
+    ->ignoreVCS(true)
 ;
 return PhpCsFixer\Config::create()
     ->setRiskyAllowed(true)
@@ -66,6 +67,7 @@ return PhpCsFixer\Config::create()
        'ternary_to_null_coalescing' => false,
        'trailing_comma_in_multiline_array' => true,
        'trim_array_spaces' => true,
+       'no_unused_imports' => true,
    ])
     ->setFinder($finder)
 ;
