@@ -1,6 +1,7 @@
 {
     "name": "stickee/php-code-style",
     "description": "Stickee PHP Code Style",
+    "license": "proprietary",
     "authors": [{
         "name": "Paul Tibbetts",
         "email": "paul.tibbetts@stickee.co.uk"
