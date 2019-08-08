@@ -2,10 +2,11 @@
   "name": "php-code-style",
   "version": "1.0.0",
   "description": "PHP Code Styles",
-  "dependencies": {
-    "husky": "^3.0.2"
+  "dependencies": {},
+  "devDependencies": {
+    "husky": "^3.0.2",
+    "lint-staged": "^9.2.1"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/stickeeuk/php-code-style.git"
