@@ -15,22 +15,5 @@
   "bugs": {
     "url": "https://github.com/stickeeuk/php-code-style/issues"
   },
-  "homepage": "https://github.com/stickeeuk/php-code-style#readme",
-  "lint-staged": {
-    "*.php": [
-      "php ./vendor/bin/php-cs-fixer fix --config dist/.php_cs",
-      "php ./vendor/bin/phpstan analyse -c dist/phpstan.neon",
-      "git add"
-    ],
-    "composer.json": [
-      "composer validate",
-      "php ./vendor/bin/security-checker security:check",
-      "git add"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  }
+  "homepage": "https://github.com/stickeeuk/php-code-style#readme"
 }
