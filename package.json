@@ -24,7 +24,7 @@
     ],
     "composer.json": [
       "composer validate",
-      "php ./vendor/bin/security-checker security:check composer.lock",
+      "php ./vendor/bin/security-checker security:check",
       "git add"
     ]
   },
