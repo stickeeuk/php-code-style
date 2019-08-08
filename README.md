@@ -27,3 +27,7 @@ PHP-CS-Fixer can be ran using:
 ```
 vendor/bin/phpcs <COMMAND> --config vendor/stickee/php-code-style/dist/.phpcs
 ```
+
+### Husky
+To allow husky to automatically run the above tasks, copy the `.huskyrc` and `.lintstagedrc` 
+file into the root of your project. Using `stickee-control` will do this automatically for you.
