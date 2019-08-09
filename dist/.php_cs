@@ -1,7 +1,7 @@
 <?php
 $finder = PhpCsFixer\Finder::create()
     ->in(__DIR__)
-    ->exclude(['bootstrap/cache', 'node_modules', 'storage'])
+    ->exclude(['bootstrap/cache', 'node_modules', 'storage', 'vendor'])
     ->name('*.php')
     ->notName('*.blade.php')
     ->notName('.phpstorm.meta.php')
