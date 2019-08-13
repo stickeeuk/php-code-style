@@ -1,0 +1,12 @@
+{
+    "*.php": [
+      "php ./vendor/bin/php-cs-fixer fix --config dist/.php_cs",
+      "php ./vendor/bin/phpstan analyse -c dist/phpstan.neon",
+      "git add"
+    ],
+    "composer.json": [
+      "composer validate",
+      "php ./vendor/bin/security-checker security:check",
+      "git add"
+    ]
+}

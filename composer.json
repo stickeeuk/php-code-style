@@ -1,18 +1,15 @@
 {
     "name": "stickee/php-code-style",
     "description": "Stickee PHP Code Style",
+    "license": "proprietary",
     "authors": [{
         "name": "Paul Tibbetts",
         "email": "paul.tibbetts@stickee.co.uk"
     }],
     "type": "library",
     "require": {
-        "phpro/grumphp": "^0.15.0",
         "phpstan/phpstan": "^0.11.1",
         "friendsofphp/php-cs-fixer": "^2.14",
-        "sensiolabs/security-checker": "^5.0",
-        "stickee/grumphp-tasks": "^1.1"
-    },
-    "require-dev": {
+        "sensiolabs/security-checker": "^6.0"
     }
 }
